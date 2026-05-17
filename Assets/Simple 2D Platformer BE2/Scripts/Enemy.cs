@@ -27,13 +27,17 @@ public class Enemy : MonoBehaviour, IGameEntity
 //    public int Health { get; set; } = 80;
 //    public float Speed { get; set; } = 4f;
 
-//    public void Patrol() => Debug.Log("Enemy patrolling...");
+//    public void Patrol()
+//    {
+//        Debug.Log("Enemy patrolling..."); 
+//    }
 
-//    public void Attack() => Debug.Log("Enemy attacking!");
-
+//    public void Attack()
+//    {
+//        Debug.Log("Enemy attacking!");
+//    }
 //    public void ChasePlayer()
 //    {
 //        Debug.Log("Enemy chasing player!");
-//        // di chuyển về phía player
 //    }
 //}

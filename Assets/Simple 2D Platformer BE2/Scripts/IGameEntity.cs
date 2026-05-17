@@ -11,6 +11,7 @@ public interface IGameEntity
     void ChasePlayer();
 }
 
+
 // tách thành các interface nhỏ hơn để tuân thủ ISP
 //public interface IAttribute
 //{

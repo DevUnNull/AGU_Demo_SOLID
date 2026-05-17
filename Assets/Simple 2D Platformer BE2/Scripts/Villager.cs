@@ -6,28 +6,31 @@ public class Villager : MonoBehaviour, IGameEntity
     public int Health { get; set; } = 100;
     public float Speed { get; set; } = 2f;
 
-    private void Update()
+    public void Start()
     {
         Patrol();
+    }
 
+    private void Update()
+    {
         // Nhấn A để test Attack()
         if (Input.GetKeyDown(KeyCode.A))
         {
-            Debug.Log("Đã bấm nút A");
+            Debug.Log("Bấm A");
             Attack();
         }
 
         // Nhấn C để test ChasePlayer()
         if (Input.GetKeyDown(KeyCode.C))
         {
-            Debug.Log("Đã bấm nút C");
+            Debug.Log("Bấm C");
             ChasePlayer();
         }
     }
 
     public void Patrol()
     {
-        //Debug.Log("Villager is patrolling...");
+        Debug.Log("Villager is patrolling...");
     }
 
     public void Attack()
