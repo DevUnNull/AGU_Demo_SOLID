@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba0c184cd6a85b43814642ebab57761, type: 3}
   m_Name: Enemy_1 3
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: Enemy 1
-  description: co the tan cong
-  baseHealth: 10
-  baseDamage: 100
-  moveSpeed: 5
+  enemyName: Enemy 4
+  description: tan cong+ phong thu
+  baseHealth: 677
+  baseDamage: 577
+  moveSpeed: 3
   enemyColor: {r: 0.9837489, g: 0, b: 1, a: 1}
   deathVFX: {fileID: 0}
